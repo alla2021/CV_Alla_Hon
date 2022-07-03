@@ -1,0 +1,103 @@
+body {
+  font-family: "Motserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #595959;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main-content {
+  color: #595959;
+  max-width: 530px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+ul,
+ol {
+  padding-left: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000000;
+  margin: 10px 0;
+}
+.title-name {
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+.title-position {
+  font-size: 14px;
+}
+.sidebar {
+  background-color: #1e2939;
+  color: #ffffff;
+  max-width: 370px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.sidebar-content {
+  margin: 0 auto;
+  max-width: 240px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li::before {
+  content: "\2022";
+  color: #fb6d3a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.title-skills,
+.contats-title {
+  color: white;
+}
+
+.job,
+.education-title {
+  color: #fb6d3a;
+}
+
+.block {
+  padding: 35px 0 0;
+}
+
+ul {
+  padding: 5px 0;
+}
+
+li,
+p {
+  line-height: 24px;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.period {
+  color: #a8a8a8;
+}
